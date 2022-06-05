@@ -21,23 +21,32 @@ public class Pila<T>{
         this.top = nuevo;
     }
     public int search(T dato){
-        int num = 1;
-        while(this.top != null && !this.top.obtenerValor().equals(dato)){
-            this.top = this.top.obtenerSiguiente();
-            num++;
+        int total = 0;
+        Node<T> aux= this.top; 
+        while(aux != null ){
+            aux = aux.obtenerSiguiente();
+            total++;
         }
-        if(this.top != null){
-            return num; 
+        aux = this.top;
+        System.out.println("total: "+total);
+        int num = total;
+        while(aux != null && !aux.obtenerValor().equals(dato)){
+            num--;
+            aux = aux.obtenerSiguiente();
         }
-        else{
+        System.out.println("num: "+num);
+        if (aux != null) {
+            return num;
+        } else {
             return -1;
         }
     }
-    public String toString(){
+
+    public String toString() {
         String text = "";
-        Node <T> aux = this.top;
-        while(aux != null){
-            text = aux.obtenerValor().toString()+" "+text;
+        Node<T> aux = this.top;
+        while (aux != null) {
+            text = aux.obtenerValor().toString() + " " + text;
             aux = aux.obtenerSiguiente();
         }
         return "{ " + text + "}";
