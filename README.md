@@ -46,7 +46,7 @@
             <p>...</p>
             <p>...</p>
         <li>Pilas</li>
-            <p>...</p>
+        <p>-Se crearon tres clases:<br><img src="Imágenes_Pila/Pila_Clases.png"> <br>-La clase Node (es la misma usada en el lab02 con ligeras modificaciones) almecena el valor en la variable <strong>data</strong> de tipo T y la dirección del Nodo siguiente en la variable <strong>nextNode</strong>. Preseta tres métodos <strong>enlazarSiguiente</strong>, <strong>obtenerSiguinte</strong>, <strong>obtenerValor</strong> y su contructor.<br>-La clase Pila presenta la funcionalidad de esta variante de Lista, la clase está construida en base a lo indicado por la plataforma de Java <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html">click aqui</a>. Los métodos implementados son:<br><strong>empty:</strong>Retorna un boleano si la Pila esta vacia o no<br><strong>peek:</strong>Retorna el elemento de la parte superior<br><strong>pop:</strong>Elimina el objeto de la parte superior<br><strong>push:</strong>Permite ingresar valores a la pila<br><strong>search:</strong>Retorna la posicion del dato solicitado , de no encontrarlo retorna -1, parte de la posicion 1. Presenta un constructor y su propio toString personalizado.<br>-Para probar la implementación de la Pila se crea método Test en donde se realiza diferentes experimentos probando la funcionalidad de la Pila</p>
         <li>Colas</li>
             <p>...</p>
     </ol>
@@ -78,7 +78,7 @@
   <tr><td>REFERENCIAS Y BIBLIOGRAFÍA</td><tr>
  </theader>
  <tbody>
-  <tr><td>-...</td></tr>
+  <tr><td><strong><em>https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html</em></strong></td></tr>
   <tr><td>-...</td></tr>
   <tr><td>-...</td></tr>
   <tr><td>-...</td></tr>
