@@ -64,7 +64,7 @@
 
 <table>
  <theader>
-  <tr><td><strong>III. RETROALIMENTACIÓN GENERAL</strong><br>
+  <tr><td>RETROALIMENTACIÓN GENERAL<br>
   </td><tr>
  </theader>
  <tbody>
