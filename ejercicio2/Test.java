@@ -11,6 +11,7 @@ public class Test {
        System.out.println(pila);
        pila.pop();
        System.out.println(pila);
-
+       System.out.println("Ultimo elemento: "+pila.peek());
+       System.out.println("Posicion del numero: "+pila.search(3));
    }
 }
