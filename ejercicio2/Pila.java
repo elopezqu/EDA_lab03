@@ -33,4 +33,12 @@ public class Pila<T>{
             return -1;
         }
     }
+    public String toString(){
+        String text = "";
+        while(this.top != null){
+            text += this.top.obtenerValor().toString()+text;
+            this.top = this.top.obtenerSiguiente();
+        }
+        return text;
+    }
 }
