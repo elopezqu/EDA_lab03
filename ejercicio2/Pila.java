@@ -34,11 +34,11 @@ public class Pila<T>{
         }
     }
     public String toString(){
-        String text = "";
+        String text = "{";
         while(this.top != null){
-            text += this.top.obtenerValor().toString()+text;
+            text += this.top.obtenerValor().toString() + " " + text;
             this.top = this.top.obtenerSiguiente();
         }
-        return text;
+        return text + "}";
     }
 }
