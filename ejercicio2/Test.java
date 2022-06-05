@@ -7,5 +7,10 @@ public class Test {
        System.out.println(pila);
        pila.push(5);
        System.out.println(pila);
-   } 
+       pila.push(6);
+       System.out.println(pila);
+       pila.pop();
+       System.out.println(pila);
+
+   }
 }

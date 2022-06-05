@@ -37,7 +37,7 @@ public class Pila<T>{
         String text = "";
         Node <T> aux = this.top;
         while(aux != null){
-            text += aux.obtenerValor().toString() + " ";
+            text = aux.obtenerValor().toString()+" "+text;
             aux = aux.obtenerSiguiente();
         }
         return "{ " + text + "}";
