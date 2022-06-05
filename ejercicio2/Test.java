@@ -3,5 +3,9 @@ public class Test {
        Pila<Integer> pila = new Pila<Integer>();
        System.out.println(pila);
        System.out.println("Esta vacia: "+pila.empty());
+       pila.push(3);
+       System.out.println(pila);
+       pila.push(5);
+       System.out.println(pila);
    } 
 }
