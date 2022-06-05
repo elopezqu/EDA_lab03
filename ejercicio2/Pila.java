@@ -17,8 +17,8 @@ public class Pila<T>{
     }
     public void push(T dato){
         Node<T> nuevo = new Node<T>(dato);
-        nuevo.enlazarSiguiente(top);
-        top = nuevo;
+        nuevo.enlazarSiguiente(this.top);
+        this.top = nuevo;
     }
     public int search(T dato){
         int num = 1;
@@ -35,9 +35,10 @@ public class Pila<T>{
     }
     public String toString(){
         String text = "";
-        while(this.top != null){
-            text += this.top.obtenerValor().toString() + " " + text;
-            this.top = this.top.obtenerSiguiente();
+        Node <T> aux = this.top;
+        while(aux != null){
+            text += aux.obtenerValor().toString() + " ";
+            aux = aux.obtenerSiguiente();
         }
         return "{ " + text + "}";
     }
