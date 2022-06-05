@@ -20,4 +20,17 @@ public class Pila<T>{
         nuevo.enlazarSiguiente(top);
         top = nuevo;
     }
+    public int search(T dato){
+        int num = 1;
+        while(this.top != null && !this.top.obtenerValor().equals(dato)){
+            this.top = this.top.obtenerSiguiente();
+            num++;
+        }
+        if(this.top != null){
+            return num; 
+        }
+        else{
+            return -1;
+        }
+    }
 }
