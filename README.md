@@ -57,7 +57,7 @@
   </td></tr>
 
 
-  <tr><td><strong>III. CONCLUSIONES:</strong><br>- ...
+  <tr><td><strong>III. CONCLUSIONES:</strong><br>- Las clases genericas son muy efectivas, y fueron de gran utilidad al momento de crear las pilas y colas, estas Listas con caracteristicas similares, son estructuras de datos que dependiendo de la situacion resultan más eficientes que las simples listas de Array. 
   </td></tr>
  </tbody>
 </table>
@@ -79,9 +79,9 @@
  </theader>
  <tbody>
   <tr><td><strong><em>https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html</em></strong></td></tr>
-  <tr><td>-...</td></tr>
-  <tr><td>-...</td></tr>
-  <tr><td>-...</td></tr>
-  <tr><td>-...</td></tr>
+  <tr><td><strong><em>https://lineadecodigo.com/java/crear-una-pila-en-java/</em></strong></td></tr>
+  <tr><td><strong><em>https://www.cartagena99.com/recursos/alumnos/apuntes/PilasYColas.pdf</em></strong></td></tr>
+  <tr><td><strong><em>http://estructuradedatosjp.blogspot.com/2015/11/pilas-y-colas-en-java.html</em></strong></td></tr>
+  <tr><td><strong><em>https://programacionparajava.blogspot.com/p/programas-sencillos-usando-estructura.html</em></strong></td></tr>
  </tbody>
 </table>
