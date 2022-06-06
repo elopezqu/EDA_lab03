@@ -2,7 +2,7 @@ public class Pila<T>{
     private Node ultValor;
     int tamano = 0;
     String Lista = "";
-    public boolean pilaVacia(){}
+    public boolean pilaVacia(){ return ultValor == null; }
     public void insertarNode(){}
     public T eliminarNode(){}
     public T ultimoValor(){}
