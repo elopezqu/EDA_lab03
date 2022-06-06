@@ -19,7 +19,7 @@ public class Pila<T>{
         return (T) ultValor.obtenerValor();
     }
     public int tamanoPila(){
-        
+        return tamano;
     }
     public int vaciarPila(){}
     public void mostrarValores(){
