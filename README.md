@@ -60,7 +60,7 @@
   </ul>
 
   </td></tr>
-  <tr><td><strong>II. CUESTIONARIO:</strong><br>*¿Qué similitudes hay entre una Lista Enlazada y una Pila?<br>Los métodos de la Pila se enfocan más en el último objeto y va desplazando a los demás objetos, por ello tiene un número inferior de métodos por la poca variedad de acciones que se puede realizar en comparación a las Lista<br>¿En que casos seria favorable/desfavorable utilizar Pila/Cola?<br>-...  
+  <tr><td><strong>II. CUESTIONARIO:</strong><br>*¿Qué similitudes hay entre una Lista Enlazada y una Pila?<br>Los métodos de la Pila se enfocan más en el último objeto y va desplazando a los demás objetos, por ello tiene un número inferior de métodos por la poca variedad de acciones que se puede realizar en comparación a las Lista<br>¿En que casos seria favorable/desfavorable utilizar Pila/Cola?<br>-Es favorable usar colas por ejemplo cuando queremos que la lista siga el orden de llegada, y asi poder utilizar los datos mas antiguos primero. En el caso de las pilar la podemos usar por ejemplo en las torres de hanoi.  
   </td></tr>
 
 
