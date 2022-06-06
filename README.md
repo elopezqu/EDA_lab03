@@ -46,25 +46,25 @@
             <p>...</p>
             <p>...</p>
         <li>Pilas</li>
-            <p>...</p>
+        <p>-Se crearon tres clases:<br><img src="Imágenes_Pila/Pila_Clases.png"> <br>-La clase Node (es la misma usada en el lab02 con ligeras modificaciones) almecena el valor en la variable <strong>data</strong> de tipo T y la dirección del Nodo siguiente en la variable <strong>nextNode</strong>. Preseta tres métodos <strong>enlazarSiguiente</strong>, <strong>obtenerSiguinte</strong>, <strong>obtenerValor</strong> y su contructor.<br>-La clase Pila presenta la funcionalidad de esta variante de Lista, la clase está construida en base a lo indicado por la plataforma de Java <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html">click aqui</a>. Los métodos implementados son:<br><strong>empty:</strong>Retorna un boleano si la Pila esta vacia o no<br><strong>peek:</strong>Retorna el elemento de la parte superior<br><strong>pop:</strong>Elimina el objeto de la parte superior<br><strong>push:</strong>Permite ingresar valores a la pila<br><strong>search:</strong>Retorna la posicion del dato solicitado , de no encontrarlo retorna -1, parte de la posicion 1. Presenta un constructor y su propio toString personalizado.<br>-Para probar la implementación de la Pila se crea método Test en donde se realiza diferentes experimentos probando la funcionalidad de la Pila</p>
         <li>Colas</li>
             <p>...</p>
     </ol>
   </ul>
 
   </td></tr>
-  <tr><td><strong>II. CUESTIONARIO:</strong><br>*¿Qué similitudes hay entre una Lista Enlazada y una Pila?<br>-...<br>¿En que casos seria favorable/desfavorable utilizar Pila/Cola?<br>-...  
+  <tr><td><strong>II. CUESTIONARIO:</strong><br>*¿Qué similitudes hay entre una Lista Enlazada y una Pila?<br>Los métodos de la Pila se enfocan más en el último objeto y va desplazando a los demás objetos, por ello tiene un número inferior de métodos por la poca variedad de acciones que se puede realizar en comparación a las Lista<br>¿En que casos seria favorable/desfavorable utilizar Pila/Cola?<br>-...  
   </td></tr>
 
 
-  <tr><td><strong>III. CONCLUSIONES:</strong><br>- ...
+  <tr><td><strong>III. CONCLUSIONES:</strong><br>- Las clases genericas son muy efectivas, y fueron de gran utilidad al momento de crear las pilas y colas, estas Listas con caracteristicas similares, son estructuras de datos que dependiendo de la situacion resultan más eficientes que las simples listas de Array. 
   </td></tr>
  </tbody>
 </table>
 
 <table>
  <theader>
-  <tr><td><strong>III. RETROALIMENTACIÓN GENERAL</strong><br>
+  <tr><td>RETROALIMENTACIÓN GENERAL<br>
   </td><tr>
  </theader>
  <tbody>
@@ -78,10 +78,10 @@
   <tr><td>REFERENCIAS Y BIBLIOGRAFÍA</td><tr>
  </theader>
  <tbody>
-  <tr><td>-...</td></tr>
-  <tr><td>-...</td></tr>
-  <tr><td>-...</td></tr>
-  <tr><td>-...</td></tr>
-  <tr><td>-...</td></tr>
+  <tr><td><strong><em>https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html</em></strong></td></tr>
+  <tr><td><strong><em>https://lineadecodigo.com/java/crear-una-pila-en-java/</em></strong></td></tr>
+  <tr><td><strong><em>https://www.cartagena99.com/recursos/alumnos/apuntes/PilasYColas.pdf</em></strong></td></tr>
+  <tr><td><strong><em>http://estructuradedatosjp.blogspot.com/2015/11/pilas-y-colas-en-java.html</em></strong></td></tr>
+  <tr><td><strong><em>https://programacionparajava.blogspot.com/p/programas-sencillos-usando-estructura.html</em></strong></td></tr>
  </tbody>
 </table>
