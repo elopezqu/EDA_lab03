@@ -3,7 +3,12 @@ public class Pila<T>{
     int tamano = 0;
     String Lista = "";
     public boolean pilaVacia(){ return ultValor == null; }
-    public void insertarNode(){}
+    public void insertarNode(){
+        Node aux = new Node(n);
+        aux.nextNode = ultValor;
+        ultValor = aux;
+        tamano = tamano + 1;
+    }
     public T eliminarNode(){}
     public T ultimoValor(){}
     public int tamanoPila(){}
