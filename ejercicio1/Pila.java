@@ -15,9 +15,17 @@ public class Pila<T>{
         tamano--;
         return (T)aux.obtenerValor();
     }
-    public T ultimoValor(){}
-    public int tamanoPila(){}
-    public int vaciarPila(){}
+    public T ultimoValor(){
+        return (T) ultValor.obtenerValor();
+    }
+    public int tamanoPila(){
+        return tamano;
+    }
+    public int vaciarPila(){
+        while(!pilaVacia()){
+            eliminarNode();
+        }
+    }
     public void mostrarValores(){
         Node recorrido = ultValor;
         while(recorrido != null){
