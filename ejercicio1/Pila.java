@@ -8,6 +8,14 @@ public class Pila<T>{
     public T ultimoValor(){}
     public int tamanoPila(){}
     public int vaciarPila(){}
-    public void mostrarValores(){}
+    public void mostrarValores(){
+        Node recorrido = ultValor;
+        while(recorrido != null){
+            Lista += recorrido.obtenerValor() + "\n";
+            recorrido = recorrido.nextNode;
+        }
+        System.out.println(Lista);
+        Lista = "";
+    }
     public int Altura(){}
 }
