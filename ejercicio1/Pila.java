@@ -21,7 +21,11 @@ public class Pila<T>{
     public int tamanoPila(){
         return tamano;
     }
-    public int vaciarPila(){}
+    public int vaciarPila(){
+        while(!pilaVacia()){
+            eliminarNode();
+        }
+    }
     public void mostrarValores(){
         Node recorrido = ultValor;
         while(recorrido != null){
