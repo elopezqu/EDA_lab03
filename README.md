@@ -74,7 +74,8 @@
   </td><tr>
  </theader>
  <tbody>
-  <tr><td>...</td></tr>
+  <tr><td>Las pilas son parecidas a las listas enlazadas y el primer elemento en entrar es el<br>ultimo es salir, un ejemplo puede ser: poner platos uno encima de otro, y si quiero<br>obtener el primer plato, tendria que sacar los que estan encima de este.<br>
+  Las colas tienen un sistema igual al de los bancos, cuando uno llega primero es atentido <br>primero, y si llegas ultimo tienes que esperar a que los demas salgan para que te toque tu turno.</td></tr>
  </tbody>
 </table>
 
