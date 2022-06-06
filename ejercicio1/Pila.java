@@ -17,5 +17,13 @@ public class Pila<T>{
         System.out.println(Lista);
         Lista = "";
     }
-    public int Altura(){}
+    public int Altura(){
+        Node recorrido = ultValor;
+        int acum = 0;
+        while(recorrido != null){
+            acum += (Integer)recorrido.obtenerValor();
+            recorrido = recorrido.nextNode;
+        }
+        return acum;
+    }
 }
