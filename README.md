@@ -48,7 +48,10 @@
                eliminarNode(): Elimina el elemento que se encuentra al final<br>
                mostrarValores(): Muestra los elementos de la pila, del ultimo al inicial<br>
                Altura(): retorna la altura total del cilindro formando por los elementos de la pila</p>
-            <p>main(): se realizo la prueba de la practica<br>
+            <p>
+                <p><em>ultimoValor</em>: Me retorna el valor del tope de la pila<br>
+            <em>tamanoPila</em>: Me retirna el tamaño de la pila<br><em>vaciarPila</em>: Elimina la pila enteramente
+                main(): se realizo la prueba de la practica<br>
                ingresarDatos(): agarra los elementos de un array y los pasa a una Pila<br>
                equalStack(): metodo el cual iguala las pilas y retorna ese valor comun entre las 3</p>
         <li>Pilas</li>
