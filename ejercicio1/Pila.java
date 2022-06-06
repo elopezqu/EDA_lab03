@@ -9,7 +9,12 @@ public class Pila<T>{
         ultValor = aux;
         tamano = tamano + 1;
     }
-    public T eliminarNode(){}
+    public T eliminarNode(){
+        Node aux = new Node(ultValor.obtenerValor());
+        ultValor = ultValor.obtenerSiguiente();
+        tamano--;
+        return (T)aux.obtenerValor();
+    }
     public T ultimoValor(){}
     public int tamanoPila(){}
     public int vaciarPila(){}
