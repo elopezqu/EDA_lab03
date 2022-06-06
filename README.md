@@ -42,8 +42,10 @@
   <ul>
     <ol>
         <li>Pilas iguales</li>
-            <p>...</p>
-            <p>...</p>
+            <p>...</p>  
+            <p><em>ultimoValor</em>: Me retorna el valor del tope de la pila<br>
+            <em>tamanoPila</em>: Me retirna el tamaño de la pila<br><em>vaciarPila</em>: Elimina la pila enteramente
+            </p>
             <p>...</p>
         <li>Pilas</li>
             <p>...</p>
