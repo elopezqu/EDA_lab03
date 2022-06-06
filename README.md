@@ -42,9 +42,16 @@
   <ul>
     <ol>
         <li>Pilas iguales</li>
+            <p>De la funcion Pila se agregaron:<br>
+               pilaVacia(): retorna un booleano(true = si no hay elementos, false = si hay elementos)<br>
+               insertarNode(): Añade un elemento al final de la pila<br>
+               eliminarNode(): Elimina el elemento que se encuentra al final<br>
+               mostrarValores(): Muestra los elementos de la pila, del ultimo al inicial<br>
+               Altura(): retorna la altura total del cilindro formando por los elementos de la pila</p>
             <p>...</p>
-            <p>...</p>
-            <p>...</p>
+            <p>main(): se realizo la prueba de la practica<br>
+               ingresarDatos(): agarra los elementos de un array y los pasa a una Pila<br>
+               equalStack(): metodo el cual iguala las pilas y retorna ese valor comun entre las 3</p>
         <li>Pilas</li>
             <p>...</p>
         <li>Colas</li>
